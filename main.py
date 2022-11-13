@@ -3,7 +3,7 @@ d = int(input('Введите номер дня:'))
 days = 0
 
 if m not in range(1, 13) or d not in range(1, 32):
-    print('Ошибка ввода данных')
+    print('Не верно введен номер месяца или дня!')
 else:
     if m < 12:
         for i in range(m, 13):
